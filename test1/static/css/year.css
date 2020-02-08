@@ -1,0 +1,16 @@
+body {background:rgb(199, 195, 195);}
+.listx {background: gray; list-style: none;width: 400px; height:800px ;position: absolute;left: 200px;top: 100px;}
+.lix {background: rgb(68, 57, 57); width: 100px; margin: 5px;list-style: none; float: left;}
+.h2x {background: none; padding-inline: 10px;color: white;}
+#ms {background: rgb(175, 161, 161);width: 325px;height: 150px;float: left; border: 2px white;}
+.px {color:white}
+.box1 {background: whitesmoke;width: 100px; margin: 5px; list-style: none; float: left;}
+.clike {color:rgb(161, 54, 116)}
+
+.body {background: black;}
+ul {list-style: none;}
+li {float: left;}
+img {width: 50px;height: 50px;}
+.box {width: 5px;height: 100px;color: rgb(96, 146, 113);}
+#di  { background: rgb(56, 45, 45); width: 700px; height: 110px; position: absolute;left: 200px;}
+.xq {width: 50px;height: 50px;}
