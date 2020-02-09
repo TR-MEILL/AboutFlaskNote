@@ -24,8 +24,8 @@ window.onload = function()
             var s = mydate.getSeconds();   
             str = two(h)+'x'+two(m)+'x'+two(s);  
             var ig = lix[i].getElementsByTagName('img');
-			path = 'static/Img/'+str[i]+'.png';
-            ig[0].src=path;
+			path = 'static/Img/'+str[i]+'.png';//{{url_for('static',filename='Img/0')}}
+            ig[0].src = path;//{{url_for('static',filename='Img/'+str[i]+'.png')}};
         
         }
     }
