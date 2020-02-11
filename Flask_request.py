@@ -35,9 +35,15 @@ def openxg():
 
 @app.route('/read', methods=['GET'])
 def read():
-    # file_name = request.args.get('file')
-    # print(file_name)
-    return render_template('readphoto.html', file_name=request.args)
+    file_name = request.args
+    files = request.args.get('file')
+    return render_template('readphoto.html', file_name=file_name, files=files)
+
+
+@app.route('/result', methods=['GET'])
+def result():
+    file_name = request.args
+    return render_template('student.html', result=file_name)
 
 
 if __name__ == '__main__':

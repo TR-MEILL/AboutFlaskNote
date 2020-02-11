@@ -6,7 +6,7 @@
     <title>Photo</title>
 </head>
 <body>
-    <table>
+    <table border = 1>
         {% for key, value in file_name.items() %}
 
         <tr>
@@ -15,7 +15,8 @@
         </tr>
 
         {% endfor %}
+
+        <h1>{{ files }}</h1>
     </table>
-    <!--img src ="{{static/Img/0.png}}"  > "{{url_for('staic/Img',{{file_name}})}}"-->
 </body>
 </html>
