@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo</title>
+</head>
+<body>
+    <table>
+        {% for key, value in file_name.items() %}
+
+        <tr>
+            <th> {{ key }} </th>
+            <td> {{ value }} </td>
+        </tr>
+
+        {% endfor %}
+    </table>
+    <!--img src ="{{static/Img/0.png}}"  > "{{url_for('staic/Img',{{file_name}})}}"-->
+</body>
+</html>
